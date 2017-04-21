@@ -18,6 +18,10 @@ names_list= sorted(names_list)
 #check name in middle of list
 
 def checker(new_name, old_names):
+	"""
+	The checker takes a string new_name and checks if it is contained in the list old_names.
+	It prints out the results.
+	"""	
 	print "***\n\ninitializing the checker"
 	print "searching for ", new_name
 	print "old names", old_names
